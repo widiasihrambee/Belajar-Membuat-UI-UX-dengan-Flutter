@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newsapp/models/news.dart';
 import 'package:newsapp/constants.dart';
-import 'package:newsapp/constants.dart';
 
 class PrimaryCard extends StatelessWidget {
   final News news;

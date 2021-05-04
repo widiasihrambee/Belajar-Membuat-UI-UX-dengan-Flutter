@@ -1,6 +1,5 @@
 import 'package:newsapp/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:newsapp/constants.dart';
 
 class CircleButton extends StatelessWidget {
   final IconData icon;

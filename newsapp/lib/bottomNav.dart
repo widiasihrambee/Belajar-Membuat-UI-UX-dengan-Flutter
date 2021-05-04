@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:newsapp/views/account_view.dart';
 import 'package:newsapp/views/favorite_view.dart';
 import 'package:newsapp/views/home_view.dart';
 import 'package:newsapp/views/search_view.dart';
 
-class BottonNav extends StatefulWidget {
+class BottomNav extends StatefulWidget {
   @override
-  _BottonNavState createState() => _BottonNavState();
+  _BottomNavState createState() => _BottomNavState();
 }
 
-class _BottonNavState extends State<BottonNav> {
+class _BottomNavState extends State<BottomNav> {
   int _selectedIndex = 0;
-
-  var SvgPicture;
 
   void _onItemTapped(int index) {
     setState(() {
